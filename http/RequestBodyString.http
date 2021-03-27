@@ -1,0 +1,23 @@
+POST http://localhost:8080/request-body-string-v1
+Content-Type: text/plain
+
+hello
+###
+
+POST http://localhost:8080/request-body-string-v2
+Content-Type: text/plain
+
+hello22
+###
+
+POST http://localhost:8080/request-body-string-v3
+Content-Type: text/plain
+
+HttpEntity
+###
+
+POST http://localhost:8080/request-body-string-v4
+Content-Type: text/plain
+
+RequestBody
+###
