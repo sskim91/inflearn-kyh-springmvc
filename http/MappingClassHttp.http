@@ -1,0 +1,18 @@
+GET http://localhost:8080/mapping/users
+Accept: application/json
+
+###
+POST http://localhost:8080/mapping/users
+Accept: application/json
+
+###
+GET http://localhost:8080/mapping/users/userA
+Accept: application/json
+
+###
+PATCH http://localhost:8080/mapping/users/userA
+Accept: application/json
+
+###
+DELETE http://localhost:8080/mapping/users/userA
+Accept: application/json
